@@ -1,0 +1,2 @@
+# yatzyNM
+Yatzy game
