@@ -12,7 +12,7 @@ public class Game {
         //play the turns
         for (int i = 0; i < 1; i++) {
             // make the turn and save the score of the turn
-            saveScore(makeTurn());
+            saveScore(makeTurn(), selectCombinationToSave());
 
             printScore();
         }
@@ -21,10 +21,66 @@ public class Game {
     private void printScore() {
     }
 
-    private void saveScore(int[] diceState) {
+    private void saveScore(int[] diceState, int combinationToSave) {
         printBoard();
 
+        switch (combinationToSave) {
 
+            case 1:
+                break;
+
+            case 2:
+                break;
+
+            case 3:
+                break;
+
+            case 4:
+                break;
+
+            case 5:
+                break;
+
+            case 6:
+                break;
+
+            case 7:
+                break;
+
+            case 8:
+                break;
+
+            case 9:
+                break;
+
+            case 10:
+                break;
+
+            case 11:
+                break;
+
+            case 12:
+                break;
+
+            case 13:
+                break;
+
+            case 14:
+                break;
+
+            case 15:
+                break;
+
+            case 16:
+                break;
+        }
+    }
+
+    private int selectCombinationToSave() {
+        int combinationToSave;
+        System.out.print("Write the number of combination you want to save: ");
+        combinationToSave = scanner.nextInt();
+        return combinationToSave;
     }
 
     private void printBoard() {
